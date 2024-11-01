@@ -1,10 +1,11 @@
 # 🦆 DuckSquad 🎮
 
-Welcome to **DuckSquad** — a thrilling 2D turn-based military strategy game! Battle with friends or AI in a chaotic world of ducks armed with unique weapons, special items, and strategy-focused battlefields. 🪖💥 Will you lead your squad to victory?
+Welcome to **DuckSquad** — a thrilling 2D turn-based military strategy game! Battle with friends or AI in a chaotic world of ducks armed with unique weapons, special items, and strategy-focused battlefields. 💥 Will you lead your squad to victory?
 
 ## 📝 Game Overview
 
-DuckSquad is a multiplayer game for 2 to 6 players. Each team’s goal is simple yet intense: **annihilate the opposition** using an arsenal of weapons 🪓🔫 and strategic environmental elements, such as giant rocks, explosive barrels, and more. Choose your moves wisely, as every detail of the battlefield could change the course of the game! 🌍🔥
+DuckSquad is a multiplayer game for 2 to 6 players. Each team’s goal is simple yet intense: **annihilate the opposition** using an arsenal of weapons 🪓🔫 and strategic environmental elements, such as giant rocks, explosive barrels, and more. Choose your moves wisely, Quack!
+I mean as every detail of the battlefield could change the course of the game! 🌍🔥
 
 ### 🎮 Game Modes
 - **Battle Royale 🏆**: Teams of 1 to 3 ducks face off in all-out warfare.
@@ -86,7 +87,7 @@ In the **Bunker**, you can buy, sell, and trade digital assets like:
 
 - **Battle Royale 1v1 Mode**
 - **2 Ducks with Unique Traits 🦆🦆**
-- **2 Weapons (Aka-47, Shotgun)**
+- **2 Weapons (AK-47, Shotgun)**
 - **Dojo Engine Connection**
 - **Cartridge & Bunker (optional)**
 
