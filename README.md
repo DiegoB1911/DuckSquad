@@ -4,7 +4,9 @@ Welcome to **DuckSquad** — a thrilling 2D turn-based military strategy game! B
 
 ## 📝 Game Overview
 
-DuckSquad is a multiplayer game for 2 to 6 players. Each team’s goal is simple yet intense: **annihilate the opposition** using an arsenal of weapons 🪓🔫 and strategic environmental elements, such as giant rocks, explosive barrels, and more. Choose your moves wisely, Quack!
+DuckSquad is a multiplayer game for 2 to 6 players. Each team’s goal is simple yet intense: **annihilate the opposition** using an arsenal of weapons 🪓🔫 and strategic environmental elements, such as giant rocks, explosive barrels, and more. 
+
+Choose your moves wisely, Quack!
 I mean as every detail of the battlefield could change the course of the game! 🌍🔥
 
 ### 🎮 Game Modes
