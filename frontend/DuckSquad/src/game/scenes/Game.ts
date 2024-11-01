@@ -11,24 +11,24 @@ export class Game extends Scene
     preload ()
     {
         this.load.setPath('assets');
-        
-        this.load.image('star', 'star.png');
-        this.load.image('background', 'bg.png');
-        this.load.image('logo', 'logo.png');
+        this.load.image('background', 'ui/background/bg.png');
+        this.load.image('mountains', 'ui/Mountains.png');
+        this.load.image('colonel', 'ui/ducks/Colonel2.png'); 
     }
 
     create ()
     {
-        
-        this.add.image(512, 384, 'background');
-        this.add.image(512, 350, 'logo').setDepth(100);
-        this.add.text(512, 490, 'Make something fun!\nand share it with us:\nsupport@phaser.io', {
-            fontFamily: 'Arial Black', fontSize: 38, color: '#ffffff',
-            stroke: '#000000', strokeThickness: 8,
-            align: 'center'
-        }).setOrigin(0.5).setDepth(100);
-        
-        EventBus.emit('current-scene-ready', this);
+        const background = this.add.image(this.scale.width / 2, this.scale.height / 2, 'background');
+        background.setDisplaySize(this.scale.width, this.scale.height);
 
+        const mountains = this.add.image(this.scale.width / 2, this.scale.height, 'mountains');
+        mountains.setOrigin(0.5, 1);
+        mountains.setDisplaySize(this.scale.width, mountains.height); 
+
+        const colonel = this.add.image(this.scale.width * 0.10, this.scale.height - mountains.height + 180, 'colonel'); 
+        colonel.setOrigin(0.5, 1);
+        colonel.setScale(0.5);
+
+        EventBus.emit('current-scene-ready', this);
     }
 }
